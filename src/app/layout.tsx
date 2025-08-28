@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flash Lanches",
-  description: "Venda de produtos online.",
+  title: "Ilha Lanches",
+  description: "As melhores esfihas da ilha.",
 };
 
 export default function RootLayout({

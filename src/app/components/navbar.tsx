@@ -16,7 +16,7 @@ export default function Navbar() {
     <>
     <div className='w-full top-0 flex justify-evenly py-4 md:justify-evenly drop-shadow lg:static bg-white'> {/* Navbar */}
         <div className='flex items-center justify-center text-3xl font-bold'>
-          <h1>Flash Lanches</h1>
+          <h1>Ilha Esfihas</h1>
         </div>
         <div className="hidden md:flex items-center text-black lg:flex">
             <ul className="flex items-center gap-4 lg:flex ">

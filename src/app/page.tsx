@@ -33,17 +33,9 @@ const produtos: Iproduto[] = [
   {
     tipo: "bebida",
     id: ulid(),
-    title: "Coca-Cola",
-    descricao: "",
-    price: 12.0,
-    img: "/bebidas/pepsi-lata.png",
-  },
-  {
-    tipo: "bebida",
-    id: ulid(),
     title: "Pepsi",
     descricao: "",
-    price: 12.0,
+    price: 7.0,
     img: "/bebidas/pepsi-lata.png",
   },
   {
@@ -224,22 +216,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
-      <div className="flex justify-center p-4 gap-4">
-
-        <div className="flex flex-col items-center justify-center">
-        <a className="text-center" href="#bebidas">
-          <div className="flex flex-col items-center justify-center bg-red-500 w-20 h-20 rounded-full">ICONE</div>
-        Bebidas</a>
-        </div>
-
-        <div className="flex flex-col items-center justify-center">
-          <a className="text-center" href="#comidas">
-            <div className="flex flex-col items-center justify-center bg-green-500 w-20 h-20 rounded-full">ICONE</div>
-          Comida</a>
-        </div>
-
-      </div>
 
       <div id="wrapper" className="flex flex-col gap-8 pb-20">
 

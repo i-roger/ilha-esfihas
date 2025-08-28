@@ -1,4 +1,4 @@
-# Visualize a aplicação: https://lanches-one.vercel.app
+# Visualize a aplicação: https://ilhaesfihas.vercel.app
 
 08.11.2024 - Feito ajustes fixos na página teste,
 usar esses ajustes no projeto original!
@@ -18,9 +18,3 @@ Feito :
 
 Libs :
 - npm install swiper
-
-Criar paginas dentro de pastas 
-
-seguindo padrao
-
-Diretório /teste/page.tsx ou /inicio/page.tsx
